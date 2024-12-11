@@ -16,11 +16,12 @@ problems—it’s about building the systems that solve them.
 
 ## About This Repository
 
-This repository was created to accompany the blog article about **K-Ink**, a
-framework for creating AI-powered Command Line Interface (CLI) tools. After
-building several AI-driven CLI tools, I identified a recurring abstract
-pattern—a foundational technique that could be distilled into a reusable
-framework for developing similar AGI agents.
+This repository was created to accompany [the
+announcement](https://blog.hox.io/) of the **K-Ink** framework for creating
+AI-powered Command Line Interface (CLI) tools. After building several AI-driven
+CLI tools, I identified a recurring abstract pattern—a foundational technique
+that could be distilled into a reusable framework for developing similar AGI
+agents.
 
 **K-Ink** showcases this pattern in its simplest form, offering a minimal
 reproduction of the core ideas. It serves as a starting point for developers who
