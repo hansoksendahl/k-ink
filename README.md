@@ -1,4 +1,4 @@
-# k-ink
+# K-Ink
 
 **K-Ink**: an Artificial Intelligence (AI) Command Line Interface (CLI)
 Framework. 🤖⚙️
