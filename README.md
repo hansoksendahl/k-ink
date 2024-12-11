@@ -1,7 +1,6 @@
 # K-Ink
 
-**K-Ink**: an Artificial Intelligence (AI) Command Line Interface (CLI)
-Framework. 🤖⚙️
+**K-Ink**: Framework for AI CLI Tools 🤖⚙️
 
 ## Overview
 

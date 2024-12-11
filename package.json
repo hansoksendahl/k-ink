@@ -2,10 +2,13 @@
   "name": "k-ink",
   "module": "src/index.tsx",
   "author": {
-    "name": "Kai",
+    "name": "Hans Oksendahl",
     "email": "hans@oksendahl.com",
     "url": "https://hox.io"
   },
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "A framework for creating AI CLI tools with React.",
   "homepage": "https://github.com/owner/project#readme",
   "type": "module",
   "devDependencies": {
