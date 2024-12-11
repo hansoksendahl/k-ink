@@ -32,7 +32,6 @@ If you’re curious about building AI-powered CLI tools or exploring the
 possibilities of adaptable, self-evolving agents, this repository provides the
 foundation you need to get started.
 
-
 ---
 
 ## Features
