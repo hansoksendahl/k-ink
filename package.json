@@ -1,27 +1,8 @@
 {
-  "name": "k-ink",
   "author": {
-    "name": "Hans Oksendahl",
     "email": "hans@oksendahl.com",
+    "name": "Hans Oksendahl",
     "url": "https://hox.io"
-  },
-  "license": "MIT",
-  "version": "0.0.1",
-  "description": "A framework for creating AI CLI tools with React.",
-  "homepage": "https://github.com/owner/project#readme",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/react": "^19.0.1",
-    "react-devtools-core": "^6.0.1",
-    "rimraf": "^6.0.1"
-  },
-  "peerDependencies": {
-    "typescript": "^5.7.2"
   },
   "dependencies": {
     "@langchain/core": "^0.3.23",
@@ -31,14 +12,33 @@
     "react": "^18",
     "zod": "^3.24.1"
   },
-  "scripts": {
-    "k-ink": "./scripts/k-ink.sh",
-    "build": "./scripts/build.sh"
+  "description": "A framework for creating AI CLI tools with React.",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.0.1",
+    "react-devtools-core": "^6.0.1",
+    "rimraf": "^6.0.1"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
   "files": [
     "dist"
-  ]
+  ],
+  "homepage": "https://github.com/owner/project#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "name": "k-ink",
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hansoksendahl/k-ink.git"
+  },
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "k-ink": "./scripts/k-ink.sh"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "version": "0.0.1"
 }
