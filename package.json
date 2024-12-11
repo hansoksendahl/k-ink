@@ -1,6 +1,5 @@
 {
   "name": "k-ink",
-  "module": "src/index.tsx",
   "author": {
     "name": "Hans Oksendahl",
     "email": "hans@oksendahl.com",
@@ -10,10 +9,16 @@
   "version": "0.0.1",
   "description": "A framework for creating AI CLI tools with React.",
   "homepage": "https://github.com/owner/project#readme",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/react": "^19.0.1"
+    "@types/react": "^19.0.1",
+    "react-devtools-core": "^6.0.1",
+    "rimraf": "^6.0.1"
   },
   "peerDependencies": {
     "typescript": "^5.7.2"
@@ -27,6 +32,13 @@
     "zod": "^3.24.1"
   },
   "scripts": {
-    "k-ink": "./scripts/k-ink.sh"
-  }
+    "k-ink": "./scripts/k-ink.sh",
+    "build": "./scripts/build.sh"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
 }
