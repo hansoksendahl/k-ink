@@ -3,11 +3,35 @@
 **K-Ink**: an Artificial Intelligence (AI) Command Line Interface (CLI) tool
 that’s as clever as it is chaotic. 🤖⚙️
 
-K-Ink isn’t just another CLI tool—it’s a self-evolving genius. Built to automate
-mundane tasks and solve complex problems, K-Ink empowers you to create tools on
-the fly, adapt workflows, and let AI take over where you once toiled. Whether
-you’re working with files, directories, or dreaming up entirely new features,
-K-Ink is here to help—and maybe roast your inefficiencies along the way.
+## Overview
+
+K-Ink isn’t just another CLI tool—it’s a modular framework for building
+AI-powered tools and agents. Inspired by the vision of self-improving AI, K-Ink
+provides a foundation for creating dynamic, adaptable workflows that evolve
+alongside your needs. Whether you’re automating repetitive tasks, generating
+tools on the fly, or designing entirely new capabilities, K-Ink empowers you to
+harness the potential of AI agents with ease. It’s not just about solving
+problems—it’s about building the systems that solve them.
+
+
+## About This Repository
+
+This repository was created to accompany the blog article about **K-Ink**, a
+framework for creating AI-powered Command Line Interface (CLI) tools. After
+building several AI-driven CLI tools, I identified a recurring abstract
+pattern—a foundational technique that could be distilled into a reusable
+framework for developing similar AGI agents.
+
+**K-Ink** showcases this pattern in its simplest form, offering a minimal
+reproduction of the core ideas. It serves as a starting point for developers who
+want to create their own modular, self-improving AI tools. While this repository
+focuses on the essentials, the techniques presented here have already been
+applied successfully in more advanced tools currently in production.
+
+If you’re curious about building AI-powered CLI tools or exploring the
+possibilities of adaptable, self-evolving agents, this repository provides the
+foundation you need to get started.
+
 
 ---
 
